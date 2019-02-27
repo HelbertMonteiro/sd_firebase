@@ -1,0 +1,49 @@
+<html>
+<head>
+ <title>Tabela</title>
+
+
+ <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+</head>
+<body>
+ 
+     <div id="campos">
+            <h1 >Formulário de Cadastro</h1>
+            <fieldset>
+                <label>Trabalho: </label>
+                <br>
+                <input type="text" id="nomeTrabalho" placeholder="Nome do trabalho" />
+                <br>
+                <label>Autor: </label>
+                <br>
+                <input type="text" id="nomeAutor" placeholder="Nome do autor" />
+                <br>
+                <label>GitHub: </label>
+                <br>
+                <input type="text" id="gitHub" placeholder="Seu GitHub" />
+                <br>
+                <label>Linguagem: </label>
+                <br>
+                <input type="text" id="linguagem" placeholder="Sua linguagem de programação" />
+                <br>
+                <label>Usuário: </label>
+                <br>
+                <input type="text" id="nomeUsuario" placeholder="Nome de usuário" />
+                <br>
+                <label>Senha: </label>
+                <br>
+                <input type="text" id="senhaUsuario" placeholder="Senha de usuário" />
+               <br> 
+                 <input style="background-color: #27676b;" type="submit" value="Limpar" onclick="novo();" />
+                 <input style="background-color: #27676b;" type="submit" value="Salvar" onclick="salvar();" />
+                 <input style="background-color: #27676b;" type="submit" value="Cancelar" onclick='window.location.replace("index.html");' />
+            </fieldset>
+    </div>
+   
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+  <script src="javascript/firebase.js"></script>
+  <script src="javascript/codes.js"></script>
+ 
+</body>
+</html>

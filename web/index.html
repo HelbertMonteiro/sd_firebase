@@ -1,0 +1,36 @@
+<html>
+<head>
+ <title>Tabela</title>
+
+
+ <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+</head>
+<body>
+
+<div id="tabela"> 
+ <h1>Lista de usuários</h1>
+ <br>
+ <input style="background-color: #27676b;" type="submit" value="Novo Usuário" onclick='window.location.replace("newU.html");' />
+ <input style="background-color: #27676b; width: 20%;" type="submit" value="Modificar Usuário" onclick='window.location.replace("form.html");' />
+
+
+ <table id="tbl_users_list">
+  <tr>
+         <td class="cabecalho">#ID</td>
+         <td class="cabecalho">Trabalho</td>
+         <td class="cabecalho">Autor</td>
+         <td class="cabecalho">GitHub</td>
+         <td class="cabecalho">Linguagem</td>
+         <td class="cabecalho">Usuário</td>
+         <td class="cabecalho">Senha</td>
+  </tr>
+ </table>
+</div>
+   
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+  <script src="javascript/firebase.js"></script>
+  <script src="javascript/codes.js"></script>
+ 
+</body>
+</html>
