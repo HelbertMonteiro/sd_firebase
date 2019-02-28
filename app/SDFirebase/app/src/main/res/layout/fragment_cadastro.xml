@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentCadastro"
+    android:background="#90AEB0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Novo Trabalho"
+            android:textSize="25dp"
+            android:padding="15px"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="25px"
+            android:layout_gravity="center"
+            android:textColor="#EBF3F4"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trabalho: "
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoCorrect|textAutoComplete|textCapWords|textCapSentences"
+            android:background="#EBF3F4"
+            android:hint="Nome do trabalho"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor: "
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoCorrect|textAutoComplete|textCapWords|textCapSentences"
+            android:background="#EBF3F4"
+            android:hint="Nome do autor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linguagem: "
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etLinguagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoCorrect|textAutoComplete|textCapWords|textCapSentences"
+            android:background="#EBF3F4"
+            android:hint="Sua linguagem de programação"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GitHub: "
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etGitHub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBF3F4"
+            android:hint="Seu GitHub"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuário: "
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBF3F4"
+            android:hint="Nome de usuário"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senha: "
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/etSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="#EBF3F4"
+            android:hint="Senha de usuário"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="50px">
+
+            <ImageButton
+                android:id="@+id/btSalvarTrabalho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/salvar_trabalho"
+                android:padding="15px"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
